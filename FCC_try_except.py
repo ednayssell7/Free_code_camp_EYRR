@@ -14,7 +14,6 @@ def payment(hours, rate):
         salary = hours * rate
         return salary 
 
-
 final_pay= payment(hours_worked, hour_rate)
 
 print(f'Total salary for the day: $', final_pay)
